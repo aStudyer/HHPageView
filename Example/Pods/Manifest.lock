@@ -1,0 +1,16 @@
+PODS:
+  - HHPageView (0.1.0)
+
+DEPENDENCIES:
+  - HHPageView (from `../`)
+
+EXTERNAL SOURCES:
+  HHPageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HHPageView: 15230a246fc10870d98e162fb5d078d1e77727f9
+
+PODFILE CHECKSUM: b75369e1222f4f7a40d8bd9c33549648bac5e6a5
+
+COCOAPODS: 1.6.1

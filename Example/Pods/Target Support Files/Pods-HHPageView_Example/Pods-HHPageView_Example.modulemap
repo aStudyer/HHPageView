@@ -1,0 +1,6 @@
+framework module Pods_HHPageView_Example {
+  umbrella header "Pods-HHPageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
