@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HHPageView_Example' do
+  pod 'HHPageView', :path => '../'
+
+  target 'HHPageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
