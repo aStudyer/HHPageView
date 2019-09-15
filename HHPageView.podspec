@@ -30,13 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HHPageView/Classes/**/*'
+  s.source_files = 'HHPageView/Classes/**/*.swift'
   
-  # s.resource_bundles = {
-  #   'HHPageView' => ['HHPageView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#  s.resource_bundles = {
+#     'HHPageView' => ['HHPageView/Assets/*.png']
+#  }
+  s.swift_version = '4.0'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

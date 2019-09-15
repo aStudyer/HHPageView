@@ -7,24 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		135537A88F616F09B3CFEE7C365F0522 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63E65238D9F6AD9B339E25B71988D25 /* ReplaceMe.swift */; };
-		33538D00054CAB25FAC2F49545580273 /* HHPageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6936573ED824DC39836D637ADEDB6 /* HHPageView-dummy.m */; };
-		5FFDC3C104B037961009C3E6F4E424E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		6490F0B4AA108A322B5B54BB2904570A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0ECA07D330A9DB2B32C112735F55BDE8 /* HHPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661A963593F56FB50E69E7A11D925DD /* HHPageView.swift */; };
+		2929BED3B190147B8EF1D8653B1B27E7 /* HHContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9446E5D8F3DFFA82DE09B5E3182ADB /* HHContentView.swift */; };
+		2E1C81FBB3F73D996A4A151E48D07EF0 /* HHTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF479665ED5C34561B4D1345B34DEB /* HHTitleView.swift */; };
+		5FFDC3C104B037961009C3E6F4E424E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		69837D91998A17774F5D49234B5089C4 /* Pods-HHPageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFB8A7F07547EDC3105D0976C42C011 /* Pods-HHPageView_Example-dummy.m */; };
-		94D6B3F6F9B89156B4A09E65356429AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		94D6B3F6F9B89156B4A09E65356429AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		969AD5BBEE9E198F53E15C6C45A563DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		9C5F660D11BD006FC1AE126BE1BC8C78 /* Pods-HHPageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4541B33C6C89258A84FD8AC4F0DB5F14 /* Pods-HHPageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B56796DE2D5A30D9997A6E9743C013B8 /* HHPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C71E0A01D2B5C3E7605DD974E717FFD6 /* HHPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A11936B68130C1BE06C1AD0DF65DDB68 /* HHPageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0662E8E08B8DB11A89AAB2CF9BBFED /* HHPageView-dummy.m */; };
+		A5FD0D0CCAF24555D159C2E509FFCF79 /* HHPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCE25177D57300C2DC00160E8C56F7 /* HHPageStyle.swift */; };
+		D7597D7173B59594B240DF2DDDFFAAA0 /* HHPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A659EDF83D65474300E574891BD45FA3 /* HHPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7D0B88A6D16999D4F037B077B8DF085 /* Pods-HHPageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A571359688E0486CAA272B2CC8FC6A /* Pods-HHPageView_Tests-dummy.m */; };
+		DB079A1BB791AB8F6DC917520C82F158 /* UIColor+HHPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60393BA4E17A231D7D0682C9CB1E0548 /* UIColor+HHPageView.swift */; };
+		E40BC3D0D9289006BCEB521284224026 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
 		ED68AE83FC412063B0B76E4DD922979A /* Pods-HHPageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 861D1E35974F58C2D7B88AC41DB42FE8 /* Pods-HHPageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDBB035012C3828833CEC5EDBA33E060 /* HHPageView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D775A24625B0FDC7B2337186F48C25D /* HHPageView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0672BA1D23CE02F0E4BED52A598059FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81348855A5FEE66C12344C2D13BBB396;
+			remoteInfo = "HHPageView-HHPageView";
+		};
 		222BD177810F493C020494A9E6A96F97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E29C90A8694D3AC1E81ED988DE7C749;
+			remoteGlobalIDString = 0D889C9F6BB4B1F201792CBABE4B6051;
 			remoteInfo = HHPageView;
 		};
 		FFE52114E78D8539666CD0281671345D /* PBXContainerItemProxy */ = {
@@ -39,52 +52,67 @@
 /* Begin PBXFileReference section */
 		010C89153DE619F79805A1073E00F4BB /* Pods-HHPageView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHPageView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		03F24AB07A2CF54802B734189621229D /* Pods-HHPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0C120FD04F13D031FEE4BE77F2A1F136 /* Pods_HHPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHPageView_Example.framework; path = "Pods-HHPageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFB8A7F07547EDC3105D0976C42C011 /* Pods-HHPageView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHPageView_Example-dummy.m"; sourceTree = "<group>"; };
 		13EB6F6442B6DAC033BADBAE00A815AC /* Pods-HHPageView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPageView_Example-Info.plist"; sourceTree = "<group>"; };
 		1A3044D58480FF77D551D9CF6BA05E85 /* Pods-HHPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1ABA97F36A0629B402CF968C19245BEF /* HHPageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHPageView-prefix.pch"; sourceTree = "<group>"; };
-		34C30DBB42569A03C7FE45847CCF9A25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		384BE4E0263196312BE6B7D95020B136 /* HHPageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HHPageView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		23C3A90D9D6D315DB595FB001DEB31AD /* ResourceBundle-HHPageView-HHPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HHPageView-HHPageView-Info.plist"; sourceTree = "<group>"; };
+		283D21AC29178CA204E7A5BAFC673F9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		346ADC2A7023884ED716912117AC49EE /* HHPageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHPageView-prefix.pch"; sourceTree = "<group>"; };
 		3E6A2F54E941862070B2E6A49073E171 /* Pods-HHPageView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPageView_Tests-Info.plist"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		412774CAB74B002FD6D41A971684095C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4541B33C6C89258A84FD8AC4F0DB5F14 /* Pods-HHPageView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHPageView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		46BD30D4B02B97833577C74C6928E826 /* HHPageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HHPageView.framework; path = HHPageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CF479665ED5C34561B4D1345B34DEB /* HHTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HHTitleView.swift; path = HHPageView/Classes/HHTitleView.swift; sourceTree = "<group>"; };
 		534C17919819DBE115C8DD0795322712 /* Pods-HHPageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHPageView_Example.modulemap"; sourceTree = "<group>"; };
 		54F882CD1BD44BB9C77FDFE4C0A3F63C /* Pods-HHPageView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPageView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E7DC6B1D8A042B38DF133AEFABF3099 /* Pods-HHPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6E3B47DE9691FED9478103D37C0EA522 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		60393BA4E17A231D7D0682C9CB1E0548 /* UIColor+HHPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HHPageView.swift"; path = "HHPageView/Classes/UIColor+HHPageView.swift"; sourceTree = "<group>"; };
+		62E1BB2562978375E3867AB7CD28DC80 /* HHPageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHPageView.xcconfig; sourceTree = "<group>"; };
+		6D775A24625B0FDC7B2337186F48C25D /* HHPageView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HHPageView.bundle; path = "HHPageView-HHPageView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA98F3AAA52EA454841FD3F6E3D1548 /* HHPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HHPageView-Info.plist"; sourceTree = "<group>"; };
+		71BCE25177D57300C2DC00160E8C56F7 /* HHPageStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HHPageStyle.swift; path = HHPageView/Classes/HHPageStyle.swift; sourceTree = "<group>"; };
+		84A4770B3FAA48C3E9FC109D1BDFCA3B /* HHPageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HHPageView.framework; path = HHPageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		861D1E35974F58C2D7B88AC41DB42FE8 /* Pods-HHPageView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HHPageView_Example-umbrella.h"; sourceTree = "<group>"; };
-		8FA6936573ED824DC39836D637ADEDB6 /* HHPageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHPageView-dummy.m"; sourceTree = "<group>"; };
+		8683FC341C4D460DE4A53C84F8AFBA5E /* HHPageView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HHPageView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		979488B6116134371FF0E5256D4E6A87 /* Pods-HHPageView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHPageView_Tests.modulemap"; sourceTree = "<group>"; };
 		9B968FBC6F532870236AECE1BB2EAD88 /* Pods-HHPageView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHPageView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9C9446E5D8F3DFFA82DE09B5E3182ADB /* HHContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HHContentView.swift; path = HHPageView/Classes/HHContentView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FE68DECD82D2A438517AF3C0EE77079 /* Pods_HHPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHPageView_Example.framework; path = "Pods-HHPageView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F0B99B3DAFB3B25887BE866E0FF566 /* HHPageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HHPageView.modulemap; sourceTree = "<group>"; };
+		A659EDF83D65474300E574891BD45FA3 /* HHPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHPageView-umbrella.h"; sourceTree = "<group>"; };
 		A6C8CDC75EC91D3692B15180E0B10B27 /* Pods-HHPageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHPageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C71E0A01D2B5C3E7605DD974E717FFD6 /* HHPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHPageView-umbrella.h"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C661A963593F56FB50E69E7A11D925DD /* HHPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HHPageView.swift; path = HHPageView/Classes/HHPageView.swift; sourceTree = "<group>"; };
 		CB9736B5159B5412983EBB449B85D717 /* Pods-HHPageView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHPageView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E4CDA71D5C533C091EB1AE11B8A34C68 /* Pods_HHPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHPageView_Tests.framework; path = "Pods-HHPageView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33B68B836F3F4B2A1F6184D59F7BF9F /* Pods_HHPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HHPageView_Tests.framework; path = "Pods-HHPageView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A571359688E0486CAA272B2CC8FC6A /* Pods-HHPageView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHPageView_Tests-dummy.m"; sourceTree = "<group>"; };
-		EE92BB5720E73058A56A2DCAED2C6072 /* HHPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HHPageView-Info.plist"; sourceTree = "<group>"; };
-		F1AE85A9714F1FA78DF9E6334FBF5FD4 /* HHPageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HHPageView.modulemap; sourceTree = "<group>"; };
-		F493FADE5BA7215FD3B6373DAE31C971 /* HHPageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHPageView.xcconfig; sourceTree = "<group>"; };
-		F63E65238D9F6AD9B339E25B71988D25 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HHPageView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FC0662E8E08B8DB11A89AAB2CF9BBFED /* HHPageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHPageView-dummy.m"; sourceTree = "<group>"; };
 		FC0BCED1239585FC93E38F9730F53F6B /* Pods-HHPageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHPageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2577F458D9B07E94A775B8F9ABF47EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969AD5BBEE9E198F53E15C6C45A563DB /* Foundation.framework in Frameworks */,
+				E40BC3D0D9289006BCEB521284224026 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED428F725B279FD21805A4D57E33FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC921A9D251E339886F4D23BACCC839 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				94D6B3F6F9B89156B4A09E65356429AD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99BE991D5204DEC31759331AD9879DBD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6490F0B4AA108A322B5B54BB2904570A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,26 +144,56 @@
 			path = "Target Support Files/Pods-HHPageView_Example";
 			sourceTree = "<group>";
 		};
-		1E5DDA7AAEC1F97DCBE94760C1E54195 /* Development Pods */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D202303ACD1D8CC2B2675C3A32A96B32 /* HHPageView */,
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1947D54A80684F6B2C5FF1D199506616 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0B99B3DAFB3B25887BE866E0FF566 /* HHPageView.modulemap */,
+				62E1BB2562978375E3867AB7CD28DC80 /* HHPageView.xcconfig */,
+				FC0662E8E08B8DB11A89AAB2CF9BBFED /* HHPageView-dummy.m */,
+				6EA98F3AAA52EA454841FD3F6E3D1548 /* HHPageView-Info.plist */,
+				346ADC2A7023884ED716912117AC49EE /* HHPageView-prefix.pch */,
+				A659EDF83D65474300E574891BD45FA3 /* HHPageView-umbrella.h */,
+				23C3A90D9D6D315DB595FB001DEB31AD /* ResourceBundle-HHPageView-HHPageView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HHPageView";
+			sourceTree = "<group>";
+		};
+		37F38C4C2B7921B30700ACD55EF75F96 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8683FC341C4D460DE4A53C84F8AFBA5E /* HHPageView.podspec */,
+				412774CAB74B002FD6D41A971684095C /* LICENSE */,
+				283D21AC29178CA204E7A5BAFC673F9D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		48078633E217F1FA76EEAB8AAF7CBD7C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6D61EE834E8216E7236656B1C71FDA2 /* HHPageView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		475F0B1C62849561E4983C78B98BF961 /* Support Files */ = {
+		64B2943931E1EC50AE7246CA8011D85E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1AE85A9714F1FA78DF9E6334FBF5FD4 /* HHPageView.modulemap */,
-				F493FADE5BA7215FD3B6373DAE31C971 /* HHPageView.xcconfig */,
-				8FA6936573ED824DC39836D637ADEDB6 /* HHPageView-dummy.m */,
-				EE92BB5720E73058A56A2DCAED2C6072 /* HHPageView-Info.plist */,
-				1ABA97F36A0629B402CF968C19245BEF /* HHPageView-prefix.pch */,
-				C71E0A01D2B5C3E7605DD974E717FFD6 /* HHPageView-umbrella.h */,
+				6D775A24625B0FDC7B2337186F48C25D /* HHPageView.bundle */,
+				84A4770B3FAA48C3E9FC109D1BDFCA3B /* HHPageView.framework */,
+				0C120FD04F13D031FEE4BE77F2A1F136 /* Pods_HHPageView_Example.framework */,
+				E33B68B836F3F4B2A1F6184D59F7BF9F /* Pods_HHPageView_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HHPageView";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		83A71913AC78F3A4A3E173D62DC8067D /* Targets Support Files */ = {
@@ -147,62 +205,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C2661B89D50F7D75E1E50251A9AEABBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				46BD30D4B02B97833577C74C6928E826 /* HHPageView.framework */,
-				9FE68DECD82D2A438517AF3C0EE77079 /* Pods_HHPageView_Example.framework */,
-				E4CDA71D5C533C091EB1AE11B8A34C68 /* Pods_HHPageView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CB8BDB7F89B44A022B6E51FED58F7429 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				384BE4E0263196312BE6B7D95020B136 /* HHPageView.podspec */,
-				6E3B47DE9691FED9478103D37C0EA522 /* LICENSE */,
-				34C30DBB42569A03C7FE45847CCF9A25 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1E5DDA7AAEC1F97DCBE94760C1E54195 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C2661B89D50F7D75E1E50251A9AEABBB /* Products */,
+				48078633E217F1FA76EEAB8AAF7CBD7C /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				64B2943931E1EC50AE7246CA8011D85E /* Products */,
 				83A71913AC78F3A4A3E173D62DC8067D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D202303ACD1D8CC2B2675C3A32A96B32 /* HHPageView */ = {
+		D6D61EE834E8216E7236656B1C71FDA2 /* HHPageView */ = {
 			isa = PBXGroup;
 			children = (
-				F63E65238D9F6AD9B339E25B71988D25 /* ReplaceMe.swift */,
-				CB8BDB7F89B44A022B6E51FED58F7429 /* Pod */,
-				475F0B1C62849561E4983C78B98BF961 /* Support Files */,
+				9C9446E5D8F3DFFA82DE09B5E3182ADB /* HHContentView.swift */,
+				71BCE25177D57300C2DC00160E8C56F7 /* HHPageStyle.swift */,
+				C661A963593F56FB50E69E7A11D925DD /* HHPageView.swift */,
+				47CF479665ED5C34561B4D1345B34DEB /* HHTitleView.swift */,
+				60393BA4E17A231D7D0682C9CB1E0548 /* UIColor+HHPageView.swift */,
+				37F38C4C2B7921B30700ACD55EF75F96 /* Pod */,
+				1947D54A80684F6B2C5FF1D199506616 /* Support Files */,
 			);
 			name = HHPageView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		EBABE4ADC9884488098D8FD8646AD656 /* Pods-HHPageView_Tests */ = {
@@ -240,17 +275,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A37A5EE4A3A75BB4DD26E44364B800A5 /* Headers */ = {
+		FE6D9FEF517746FE27EE3A4A876AD9FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56796DE2D5A30D9997A6E9743C013B8 /* HHPageView-umbrella.h in Headers */,
+				D7597D7173B59594B240DF2DDDFFAAA0 /* HHPageView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0D889C9F6BB4B1F201792CBABE4B6051 /* HHPageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FCF553851F917DCFAAB44342CF6009 /* Build configuration list for PBXNativeTarget "HHPageView" */;
+			buildPhases = (
+				FE6D9FEF517746FE27EE3A4A876AD9FC /* Headers */,
+				2D6EA5F3E2E90F331A43B3B8E8503BF1 /* Sources */,
+				2577F458D9B07E94A775B8F9ABF47EC8 /* Frameworks */,
+				4B9874A5281436CB01CE7296C66839DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				385221028B5EF7C1D65314D18A91A14F /* PBXTargetDependency */,
+			);
+			name = HHPageView;
+			productName = HHPageView;
+			productReference = 84A4770B3FAA48C3E9FC109D1BDFCA3B /* HHPageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2BCAFAE48A786E42C3C128EF1F5D5AD8 /* Pods-HHPageView_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9B222D3D58E9012E072D0D3187D5C3E /* Build configuration list for PBXNativeTarget "Pods-HHPageView_Tests" */;
@@ -267,7 +321,7 @@
 			);
 			name = "Pods-HHPageView_Tests";
 			productName = "Pods-HHPageView_Tests";
-			productReference = E4CDA71D5C533C091EB1AE11B8A34C68 /* Pods_HHPageView_Tests.framework */;
+			productReference = E33B68B836F3F4B2A1F6184D59F7BF9F /* Pods_HHPageView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		31DE32E4FB59565DBAF40E2A2F2408B7 /* Pods-HHPageView_Example */ = {
@@ -286,26 +340,25 @@
 			);
 			name = "Pods-HHPageView_Example";
 			productName = "Pods-HHPageView_Example";
-			productReference = 9FE68DECD82D2A438517AF3C0EE77079 /* Pods_HHPageView_Example.framework */;
+			productReference = 0C120FD04F13D031FEE4BE77F2A1F136 /* Pods_HHPageView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4E29C90A8694D3AC1E81ED988DE7C749 /* HHPageView */ = {
+		81348855A5FEE66C12344C2D13BBB396 /* HHPageView-HHPageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40FF309AB7D24A45EDAF9B334F33B1B8 /* Build configuration list for PBXNativeTarget "HHPageView" */;
+			buildConfigurationList = 32EC7A110C29F6A160A64180D016FBA6 /* Build configuration list for PBXNativeTarget "HHPageView-HHPageView" */;
 			buildPhases = (
-				A37A5EE4A3A75BB4DD26E44364B800A5 /* Headers */,
-				7B09715509BDA12C611545142BF356F9 /* Sources */,
-				99BE991D5204DEC31759331AD9879DBD /* Frameworks */,
-				8B66205C19DCD5F82C9815E14EA9ED88 /* Resources */,
+				D29154B8945528EAED423CE42D80D3EF /* Sources */,
+				4ED428F725B279FD21805A4D57E33FD2 /* Frameworks */,
+				F75DA8E644B1C540BA4AB9000039F841 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HHPageView;
-			productName = HHPageView;
-			productReference = 46BD30D4B02B97833577C74C6928E826 /* HHPageView.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "HHPageView-HHPageView";
+			productName = "HHPageView-HHPageView";
+			productReference = 6D775A24625B0FDC7B2337186F48C25D /* HHPageView.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -324,11 +377,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C2661B89D50F7D75E1E50251A9AEABBB /* Products */;
+			productRefGroup = 64B2943931E1EC50AE7246CA8011D85E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E29C90A8694D3AC1E81ED988DE7C749 /* HHPageView */,
+				0D889C9F6BB4B1F201792CBABE4B6051 /* HHPageView */,
+				81348855A5FEE66C12344C2D13BBB396 /* HHPageView-HHPageView */,
 				31DE32E4FB59565DBAF40E2A2F2408B7 /* Pods-HHPageView_Example */,
 				2BCAFAE48A786E42C3C128EF1F5D5AD8 /* Pods-HHPageView_Tests */,
 			);
@@ -343,10 +397,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B66205C19DCD5F82C9815E14EA9ED88 /* Resources */ = {
+		4B9874A5281436CB01CE7296C66839DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBB035012C3828833CEC5EDBA33E060 /* HHPageView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,9 +412,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F75DA8E644B1C540BA4AB9000039F841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2D6EA5F3E2E90F331A43B3B8E8503BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2929BED3B190147B8EF1D8653B1B27E7 /* HHContentView.swift in Sources */,
+				A5FD0D0CCAF24555D159C2E509FFCF79 /* HHPageStyle.swift in Sources */,
+				A11936B68130C1BE06C1AD0DF65DDB68 /* HHPageView-dummy.m in Sources */,
+				0ECA07D330A9DB2B32C112735F55BDE8 /* HHPageView.swift in Sources */,
+				2E1C81FBB3F73D996A4A151E48D07EF0 /* HHTitleView.swift in Sources */,
+				DB079A1BB791AB8F6DC917520C82F158 /* UIColor+HHPageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B3EBCC77EBA7C9C26C87AC71AE14E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,12 +451,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B09715509BDA12C611545142BF356F9 /* Sources */ = {
+		D29154B8945528EAED423CE42D80D3EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33538D00054CAB25FAC2F49545580273 /* HHPageView-dummy.m in Sources */,
-				135537A88F616F09B3CFEE7C365F0522 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,8 +464,14 @@
 		1BB65422B6BBDEF3A947E4DD1E272EF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HHPageView;
-			target = 4E29C90A8694D3AC1E81ED988DE7C749 /* HHPageView */;
+			target = 0D889C9F6BB4B1F201792CBABE4B6051 /* HHPageView */;
 			targetProxy = 222BD177810F493C020494A9E6A96F97 /* PBXContainerItemProxy */;
+		};
+		385221028B5EF7C1D65314D18A91A14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HHPageView-HHPageView";
+			target = 81348855A5FEE66C12344C2D13BBB396 /* HHPageView-HHPageView */;
+			targetProxy = 0672BA1D23CE02F0E4BED52A598059FF /* PBXContainerItemProxy */;
 		};
 		76CD0AC0EE52905893C2E1659776158D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -403,74 +482,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		376A3E3E271C21E4ED0ED41BF0C9A708 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A3044D58480FF77D551D9CF6BA05E85 /* Pods-HHPageView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HHPageView_Tests/Pods-HHPageView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HHPageView_Tests/Pods-HHPageView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		99DD954271D04F9083BF35071D863780 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC0BCED1239585FC93E38F9730F53F6B /* Pods-HHPageView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HHPageView_Tests/Pods-HHPageView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HHPageView_Tests/Pods-HHPageView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -521,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -534,9 +546,9 @@
 			};
 			name = Debug;
 		};
-		B003880463A9525FBE439D57B1868B3D /* Debug */ = {
+		07C16C713A8D67F689B63ED3AF20DB73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F493FADE5BA7215FD3B6373DAE31C971 /* HHPageView.xcconfig */;
+			baseConfigurationReference = 62E1BB2562978375E3867AB7CD28DC80 /* HHPageView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -560,12 +572,46 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		465CDA35F57934EF02BD35104CAF6861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3044D58480FF77D551D9CF6BA05E85 /* Pods-HHPageView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HHPageView_Tests/Pods-HHPageView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HHPageView_Tests/Pods-HHPageView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C1C1B698151A1DA643C961EE6EC101ED /* Release */ = {
+		5084ABB41AC7DCE474520B0BD880A197 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03F24AB07A2CF54802B734189621229D /* Pods-HHPageView_Example.release.xcconfig */;
 			buildSettings = {
@@ -581,7 +627,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HHPageView_Example/Pods-HHPageView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HHPageView_Example/Pods-HHPageView_Example.modulemap";
@@ -599,72 +645,23 @@
 			};
 			name = Release;
 		};
-		D329531682325473B9E4643CADBA7616 /* Debug */ = {
+		9917EDFC8B2F83882521EAEDB36444B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E7DC6B1D8A042B38DF133AEFABF3099 /* Pods-HHPageView_Example.debug.xcconfig */;
+			baseConfigurationReference = 62E1BB2562978375E3867AB7CD28DC80 /* HHPageView.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HHPageView_Example/Pods-HHPageView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HHPageView_Example/Pods-HHPageView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DBCCF0F61FDEF026DF612D6B96224902 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F493FADE5BA7215FD3B6373DAE31C971 /* HHPageView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HHPageView/HHPageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HHPageView/HHPageView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HHPageView";
+				INFOPLIST_FILE = "Target Support Files/HHPageView/ResourceBundle-HHPageView-HHPageView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HHPageView/HHPageView.modulemap";
-				PRODUCT_MODULE_NAME = HHPageView;
 				PRODUCT_NAME = HHPageView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -712,7 +709,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -724,14 +721,137 @@
 			};
 			name = Release;
 		};
+		CDB4FF4F3E4E6D6D8DE6C265E378C089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7DC6B1D8A042B38DF133AEFABF3099 /* Pods-HHPageView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HHPageView_Example/Pods-HHPageView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HHPageView_Example/Pods-HHPageView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D03B9E7C8884354651437831762A0996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0BCED1239585FC93E38F9730F53F6B /* Pods-HHPageView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HHPageView_Tests/Pods-HHPageView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HHPageView_Tests/Pods-HHPageView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F61376DB2707C03F7E0892A1AFEEE9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E1BB2562978375E3867AB7CD28DC80 /* HHPageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HHPageView/HHPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HHPageView/HHPageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HHPageView/HHPageView.modulemap";
+				PRODUCT_MODULE_NAME = HHPageView;
+				PRODUCT_NAME = HHPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE3DB9FD1086C6D0B53E2FC27989B7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E1BB2562978375E3867AB7CD28DC80 /* HHPageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HHPageView";
+				INFOPLIST_FILE = "Target Support Files/HHPageView/ResourceBundle-HHPageView-HHPageView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HHPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40FF309AB7D24A45EDAF9B334F33B1B8 /* Build configuration list for PBXNativeTarget "HHPageView" */ = {
+		31FCF553851F917DCFAAB44342CF6009 /* Build configuration list for PBXNativeTarget "HHPageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B003880463A9525FBE439D57B1868B3D /* Debug */,
-				DBCCF0F61FDEF026DF612D6B96224902 /* Release */,
+				F61376DB2707C03F7E0892A1AFEEE9BC /* Debug */,
+				07C16C713A8D67F689B63ED3AF20DB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EC7A110C29F6A160A64180D016FBA6 /* Build configuration list for PBXNativeTarget "HHPageView-HHPageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9917EDFC8B2F83882521EAEDB36444B7 /* Debug */,
+				FE3DB9FD1086C6D0B53E2FC27989B7E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,8 +859,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,8 +868,8 @@
 		95561005A0A4CE041DF0CD5C6556198F /* Build configuration list for PBXNativeTarget "Pods-HHPageView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D329531682325473B9E4643CADBA7616 /* Debug */,
-				C1C1B698151A1DA643C961EE6EC101ED /* Release */,
+				CDB4FF4F3E4E6D6D8DE6C265E378C089 /* Debug */,
+				5084ABB41AC7DCE474520B0BD880A197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -757,8 +877,8 @@
 		D9B222D3D58E9012E072D0D3187D5C3E /* Build configuration list for PBXNativeTarget "Pods-HHPageView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				376A3E3E271C21E4ED0ED41BF0C9A708 /* Debug */,
-				99DD954271D04F9083BF35071D863780 /* Release */,
+				465CDA35F57934EF02BD35104CAF6861 /* Debug */,
+				D03B9E7C8884354651437831762A0996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
