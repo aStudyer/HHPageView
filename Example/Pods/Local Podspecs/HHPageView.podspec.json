@@ -13,16 +13,12 @@
   },
   "source": {
     "git": "https://github.com/aStudyer/HHPageView.git",
-    "branch": "master"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "HHPageView/Classes/**/*.swift",
-  "resource_bundles": {
-    "HHPageView": [
-      "HHPageView/Assets/*.png"
-    ]
-  },
+  "swift_version": "4.0",
   "frameworks": "UIKit"
 }
