@@ -21,13 +21,13 @@ class ViewController: UIViewController {
         let pageViewFrame = CGRect(x: 0, y: y, width: view.bounds.width, height: view.bounds.height - y)
         
         // 2.所有的标题
-        let titles = ["推荐", "手游玩法大全", "娱乐手", "游戏游戏", "趣玩", "游戏游戏", "趣玩"]
+        let titles = ["关注", "推荐", "热点", "视频", "小视频", "问答", "图片", "娱乐", "科技", "懂车帝", "财经", "军事", "直播", "体育", "国际", "健康", "房产"]
         
         // 3.titleView的样式
         let style = HHPageStyle()
         style.titleViewHeight = 44
-        style.isScrollEnable = true        
-        style.isShowCoverView = false
+        style.isScrollEnable = true
+        style.isShowCoverView = true
         
         // 4.初始化所有的子控制器
         var childVcs = [UIViewController]()

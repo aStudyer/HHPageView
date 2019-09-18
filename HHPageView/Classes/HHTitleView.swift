@@ -272,10 +272,6 @@ extension HHTitleView: HHContentViewDelegate {
     }
     
     private func getGRBValue(_ color: UIColor) -> (CGFloat, CGFloat, CGFloat) {
-        guard  let components = color.cgColor.components else {
-            fatalError("文字颜色请按照RGB方式设置")
-        }
-        
-        return (components[0] * 255, components[1] * 255, components[2] * 255)
+        return (color.red() * 255, color.green() * 255, color.blue() * 255)
     }
 }
