@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "首页"
-        automaticallyAdjustsScrollViewInsets = false
         
         // 1.搞定frame
         let y = navigationController?.navigationBar.frame.maxY ?? 64

@@ -20,6 +20,7 @@ public class HHPageView: UIView {
         self.childVcs = childVcs
         self.parentVc = parentVc
         self.titleStyle = titleStyle
+        parentVc.automaticallyAdjustsScrollViewInsets = false
         super.init(frame: frame)
         setupUI()
     }

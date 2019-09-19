@@ -1,5 +1,5 @@
 PODS:
-  - HHPageView (0.1.1)
+  - HHPageView (0.1.2)
 
 DEPENDENCIES:
   - HHPageView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HHPageView: df53f2a2edf6b803f1421220e8fe9c62b5fbf9a7
+  HHPageView: 693e00556dc18aa34a685f89a333ff1a75cd4ea5
 
 PODFILE CHECKSUM: 35d27f7b389d444d1e81a0f8e7e19739e1f1ec45
 
