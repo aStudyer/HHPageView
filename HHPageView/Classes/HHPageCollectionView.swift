@@ -20,7 +20,7 @@ public protocol HHPageCollectionViewDelegate: class {
 public class HHPageCollectionView: UIView {
     
     public weak var dataSource: HHPageCollectionViewDataSource?
-    weak var delegate: HHPageCollectionViewDelegate?
+    public weak var delegate: HHPageCollectionViewDelegate?
     
     fileprivate var titles: [String]
     fileprivate var isTitleInTop: Bool
