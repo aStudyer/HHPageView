@@ -1,16 +1,28 @@
 PODS:
-  - HHPageView (0.1.2)
+  - HHPageView (0.1.3)
+  - HHUIBase_Swift (0.1.7):
+    - MJExtension
+  - MJExtension (3.1.1)
 
 DEPENDENCIES:
   - HHPageView (from `../`)
+  - HHUIBase_Swift
+
+SPEC REPOS:
+  https://github.com/aStudyer/HHSpecs.git:
+    - HHUIBase_Swift
+  https://github.com/cocoapods/specs.git:
+    - MJExtension
 
 EXTERNAL SOURCES:
   HHPageView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HHPageView: 693e00556dc18aa34a685f89a333ff1a75cd4ea5
+  HHPageView: aa8a43367a7e96923acb6e87261f75c031d81764
+  HHUIBase_Swift: 93462f0d6a7cc7332df32bba066106318e7674fb
+  MJExtension: dfef9855ee178e1ce67f3e03b71ca4226330d87d
 
-PODFILE CHECKSUM: 35d27f7b389d444d1e81a0f8e7e19739e1f1ec45
+PODFILE CHECKSUM: eff03142f19574d20f924cf17cefb81b40ba9214
 
 COCOAPODS: 1.6.1

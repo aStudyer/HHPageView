@@ -1,9 +1,13 @@
-platform :ios, '9.0'
+platform :ios, '9.3'
 use_frameworks!
+
+source 'https://github.com/aStudyer/HHSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'HHPageView_Example' do
   pod 'HHPageView', :path => '../'
-
+  pod 'HHUIBase_Swift'
+  
   target 'HHPageView_Tests' do
     inherit! :search_paths
     
