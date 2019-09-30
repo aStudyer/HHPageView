@@ -13,9 +13,14 @@ public protocol HHPageCollectionViewDataSource: class {
     func pageCollectionView(_ pageCollectionView: HHPageCollectionView ,_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
 }
 
+public protocol HHPageCollectionViewDelegate: class {
+    func pageCollectionView(_ pageCollectionView: HHPageCollectionView, didSelectItemAt indexPath: IndexPath)
+}
+
 public class HHPageCollectionView: UIView {
     
     public weak var dataSource: HHPageCollectionViewDataSource?
+    weak var delegate: HHPageCollectionViewDelegate?
     
     fileprivate var titles: [String]
     fileprivate var isTitleInTop: Bool
@@ -82,8 +87,12 @@ extension HHPageCollectionView {
         collectionView.register(cell, forCellWithReuseIdentifier: identifier)
     }
     
-    public func register(nib: UINib, identifier: String) {
-        collectionView.register(nib, forCellWithReuseIdentifier: identifier)
+    public func register(nibName: String, identifier: String) {
+        collectionView.register(UINib(nibName: nibName, bundle: nil), forCellWithReuseIdentifier: identifier)
+    }
+    
+    public func reloadData() {
+        collectionView.reloadData()
     }
 }
 
@@ -110,6 +119,10 @@ extension HHPageCollectionView: UICollectionViewDataSource {
 
 // MARK: - UICollectionViewDelegate
 extension HHPageCollectionView : UICollectionViewDelegate {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        delegate?.pageCollectionView(self, didSelectItemAt: indexPath)
+    }
+    
     public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         scrollViewEndScroll()
     }
