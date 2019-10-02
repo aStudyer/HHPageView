@@ -35,7 +35,7 @@ class HHTitleView: UIView {
     }()
     fileprivate lazy var splitLineView: UIView = {
         let splitView = UIView()
-        splitView.backgroundColor = UIColor.lightGray
+        splitView.backgroundColor = self.style.splitViewColor
         let h : CGFloat = 0.5
         splitView.frame = CGRect(x: 0, y: self.frame.height - h, width: self.frame.width, height: h)
         return splitView
@@ -75,6 +75,7 @@ class HHTitleView: UIView {
 // MARK:- 设置UI界面内容
 extension HHTitleView {
     fileprivate func setupUI() {
+        backgroundColor = style.backgroundColor
         // 1.添加Scrollview
         addSubview(scrollView)
         
@@ -159,7 +160,10 @@ extension HHTitleView {
     
     fileprivate func setupBottomLine() {
         scrollView.addSubview(bottomLine)
-        bottomLine.frame = titleLabels.first!.frame
+        guard let frame = titleLabels.first?.frame else {
+            return
+        }
+        bottomLine.frame = frame
         bottomLine.frame.size.height = style.bottomLineH
         bottomLine.frame.origin.y = bounds.height - style.bottomLineH
     }

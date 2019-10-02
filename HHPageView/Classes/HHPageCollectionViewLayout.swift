@@ -19,7 +19,8 @@ public class HHPageCollectionViewLayout: UICollectionViewFlowLayout {
 extension HHPageCollectionViewLayout {
     override public func prepare() {
         super.prepare()
-        
+        minimumInteritemSpacing = 0
+        minimumLineSpacing = 0
         // 0.计算item宽度&高度
         let itemW = (collectionView!.bounds.width - sectionInset.left - sectionInset.right - minimumInteritemSpacing * CGFloat(cols - 1)) / CGFloat(cols)
         let itemH = (collectionView!.bounds.height - sectionInset.top - sectionInset.bottom - minimumLineSpacing * CGFloat(rows - 1)) / CGFloat(rows)

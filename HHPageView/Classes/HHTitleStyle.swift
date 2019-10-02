@@ -9,6 +9,8 @@ import UIKit
 public class HHTitleStyle {
     /// 是否是滚动的Title
     public var isScrollEnable : Bool = false
+    /// 背景颜色
+    public var backgroundColor : UIColor = UIColor.white
     /// 普通Title颜色
     public var normalColor : UIColor = UIColor(r: 0, g: 0, b: 0)
     /// 选中Title颜色
@@ -26,7 +28,8 @@ public class HHTitleStyle {
     public var bottomLineColor : UIColor = UIColor.orange
     /// 底部滚动条的高度
     public var bottomLineH : CGFloat = 2
-    
+    /// 底部分割线的颜色
+    public var splitViewColor: UIColor = UIColor.lightGray
     
     /// 是否进行缩放
     public var isNeedScale : Bool = false

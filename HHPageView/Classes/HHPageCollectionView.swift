@@ -56,7 +56,7 @@ extension HHPageCollectionView {
         titleView = HHTitleView(frame: titleFrame, titles: titles, style: style)
         addSubview(titleView)
         titleView.delegate = self
-        titleView.backgroundColor = UIColor.randomColor()
+        titleView.backgroundColor = style.backgroundColor
         
         // 2.创建UIPageControl
         let pageControlHeight: CGFloat = 20
@@ -66,7 +66,7 @@ extension HHPageCollectionView {
         pageControl.numberOfPages = 4
         pageControl.isEnabled = false
         addSubview(pageControl)
-        pageControl.backgroundColor = UIColor.randomColor()
+        pageControl.backgroundColor = backgroundColor
         
         // 3.创建UICollectionView
         let collectionViewY = isTitleInTop ? style.titleHeight : 0
@@ -77,7 +77,7 @@ extension HHPageCollectionView {
         collectionView.isPagingEnabled = true
         collectionView.showsHorizontalScrollIndicator = false
         addSubview(collectionView)
-        collectionView.backgroundColor = UIColor.randomColor()
+        collectionView.backgroundColor = backgroundColor
     }
 }
 
