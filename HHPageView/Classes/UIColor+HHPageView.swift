@@ -13,11 +13,11 @@ public extension UIColor {
     }
     
     func rgb() -> (r: CGFloat, g: CGFloat, b: CGFloat) {
-        return (red(), green(), blue())
+        return (red() * 255.0, green() * 255.0, blue() * 255.0)
     }
     
     func rgba() -> (r: CGFloat, g: CGFloat, b: CGFloat, a: CGFloat) {
-        return (red(), green(), blue(), alpha())
+        return (red() * 255.0, green() * 255.0, blue() * 255.0, alpha())
     }
     
     func red() -> CGFloat {

@@ -221,10 +221,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = WFU32UD56B;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = WFU32UD56B;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -498,6 +500,7 @@
 			baseConfigurationReference = 1554E6A12F38423AEB4D0AAF /* Pods-HHPageView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFU32UD56B;
 				INFOPLIST_FILE = HHPageView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -514,6 +517,7 @@
 			baseConfigurationReference = 06AB368A8D529C5B749F1AAD /* Pods-HHPageView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFU32UD56B;
 				INFOPLIST_FILE = HHPageView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -529,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 946498172AECF4C99B767C44 /* Pods-HHPageView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WFU32UD56B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D10A7CCE8E40C62C3DEF409 /* Pods-HHPageView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WFU32UD56B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

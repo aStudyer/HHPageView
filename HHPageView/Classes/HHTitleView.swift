@@ -204,6 +204,8 @@ extension HHTitleView {
         currentLabel.textColor = style.selectedColor
         oldLabel.textColor = style.normalColor
         
+        print("currentIndex: \(currentIndex)")
+        
         // 4.保存最新Label的下标值
         currentIndex = currentLabel.tag
         
@@ -257,21 +259,20 @@ extension HHTitleView {
         // 1.取出sourceLabel/targetLabel
         let sourceLabel = titleLabels[sourceIndex]
         let targetLabel = titleLabels[targetIndex]
-        
+                
         // 3.颜色的渐变(复杂)
         // 3.1.取出变化的范围
-        let colorDelta = (selectedColorRGB.0 - normalColorRGB.0, selectedColorRGB.1 - normalColorRGB.1, selectedColorRGB.2 - normalColorRGB.2)
+        let colorDelta = (r: selectedColorRGB.r - normalColorRGB.r, g: selectedColorRGB.g - normalColorRGB.g, b: selectedColorRGB.b - normalColorRGB.b)
         
         // 3.2.变化sourceLabel
-        sourceLabel.textColor = UIColor(r: selectedColorRGB.0 - colorDelta.0 * progress, g: selectedColorRGB.1 - colorDelta.1 * progress, b: selectedColorRGB.2 - colorDelta.2 * progress)
+        sourceLabel.textColor = UIColor(r: selectedColorRGB.r - colorDelta.r * progress, g: selectedColorRGB.g - colorDelta.g * progress, b: selectedColorRGB.b - colorDelta.b * progress)
         
         // 3.2.变化targetLabel
-        targetLabel.textColor = UIColor(r: normalColorRGB.0 + colorDelta.0 * progress, g: normalColorRGB.1 + colorDelta.1 * progress, b: normalColorRGB.2 + colorDelta.2 * progress)
+        targetLabel.textColor = UIColor(r: normalColorRGB.r + colorDelta.r * progress, g: normalColorRGB.g + colorDelta.g * progress, b: normalColorRGB.b + colorDelta.b * progress)
         
         // 4.记录最新的index
         currentIndex = targetIndex
-        
-        
+        print("currentIndex ============================ \(currentIndex)")
         let moveTotalX = targetLabel.frame.origin.x - sourceLabel.frame.origin.x
         let moveTotalW = targetLabel.frame.width - sourceLabel.frame.width
         

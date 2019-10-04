@@ -25,8 +25,8 @@ class HHPageViewController: BaseViewController {
         let style = HHTitleStyle()
         style.titleHeight = 44
         style.isScrollEnable = true
-        style.isShowCover = true
-        
+        style.isShowCover = false
+        style.selectedColor = UIColor.red
         // 4.初始化所有的子控制器
         var childVcs = [UIViewController]()
         for _ in 0..<titles.count {
